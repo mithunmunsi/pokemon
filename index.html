@@ -2,17 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pokemon APIs</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
     <link rel="stylesheet" href="style.css" />
-    <title>Pokeapp</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Pokedex</h1>
-      <input type="text" class="searchBar" />
-      <div class="pokedex"></div>
-    </div>
+    <main>
+      <h1>POKEMON</h1>
+      <div class="filter">
+        <button class="btn">Gen I</button>
+        <button class="btn">Gen II</button>
+        <button class="btn">Gen III</button>
+        <button class="btn">Gen IV</button>
+        <button class="btn">Gen V</button>
+        <button class="btn">Gen VI</button>
+        <button class="btn">Gen VII</button>
+        <button class="btn">Gen VIII</button>
+        <button class="btn">Gen IX</button>
+      </div>
+      <div id="pokemons" class="pokemons"></div>
+      <input id="search-box" type="text" placeholder="Search by name!" />
+      <div class="pokeCards"></div>
+
+      <span class="material-symbols-outlined" id="backToTop">
+        arrow_upward
+      </span>
+    </main>
     <script src="main.js"></script>
   </body>
 </html>
+s
